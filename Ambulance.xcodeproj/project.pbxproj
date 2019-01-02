@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A52147257B21F78705787E /* Pods_AmbulanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44E6212E4C84B4AE86BD7D /* Pods_AmbulanceTests.framework */; };
+		7CC4618D09C231D822BB2D4C /* Pods_Ambulance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EB424CFC5952CDF21019E0 /* Pods_Ambulance.framework */; };
+		924683F3181F2525B2095DAE /* Pods_AmbulanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B769324444C33AC21567553B /* Pods_AmbulanceUITests.framework */; };
+		DB026F7D21B6B8DB00E51B63 /* ModifierAmbulancierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB026F7C21B6B8DB00E51B63 /* ModifierAmbulancierViewController.swift */; };
+		DB026F7F21B7E10C00E51B63 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB026F7E21B7E10C00E51B63 /* ChatViewController.swift */; };
+		DB026F8421B7FDFB00E51B63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB026F8321B7FDFB00E51B63 /* Constants.swift */; };
+		DB2EF9A021BEF11B000E0013 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2EF99F21BEF11B000E0013 /* GoogleService-Info.plist */; };
+		DB2F953921B2BFFA00BF220B /* EspaseChauffeurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F953821B2BFFA00BF220B /* EspaseChauffeurViewController.swift */; };
+		DB6AB6A221CD269600FBF541 /* ListChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6AB6A121CD269600FBF541 /* ListChatViewController.swift */; };
+		DB6AB6A421CD286500FBF541 /* ListChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6AB6A321CD286500FBF541 /* ListChatTableViewCell.swift */; };
+		DB967AE821B378ED00B16921 /* ListePatientChaufeurTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB967AE721B378ED00B16921 /* ListePatientChaufeurTableViewCell.swift */; };
+		DBA52A1D21B0A87E0036CDFF /* InscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA52A1C21B0A87E0036CDFF /* InscriptionViewController.swift */; };
+		DBA52A1F21B0A9120036CDFF /* EspaceProPartnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA52A1E21B0A9120036CDFF /* EspaceProPartnerViewController.swift */; };
+		DBA52A2121B0AB7B0036CDFF /* AjoutAmbulancierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA52A2021B0AB7B0036CDFF /* AjoutAmbulancierViewController.swift */; };
+		DBA52A2321B0DD880036CDFF /* ListeChauffeurPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA52A2221B0DD880036CDFF /* ListeChauffeurPTableViewCell.swift */; };
+		DBA52A2521B156510036CDFF /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA52A2421B156510036CDFF /* MapsViewController.swift */; };
+		DBAE26B421BD8B6F00220FC9 /* AcceuilClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE26B321BD8B6E00220FC9 /* AcceuilClientViewController.swift */; };
+		DBAE26B621BD8C5200220FC9 /* CommandeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE26B521BD8C5200220FC9 /* CommandeViewController.swift */; };
+		DBAE26B821BD8C7B00220FC9 /* EspaceClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE26B721BD8C7B00220FC9 /* EspaceClientViewController.swift */; };
+		DBDC382921BFC97D00ABB65F /* ListeChauffeurPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDC382821BFC97D00ABB65F /* ListeChauffeurPatientViewController.swift */; };
+		DBDC382B21BFF45C00ABB65F /* ListeChauffeurPatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDC382A21BFF45C00ABB65F /* ListeChauffeurPatTableViewCell.swift */; };
 		DBEF88BB21B0014B00A7BF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88BA21B0014B00A7BF81 /* AppDelegate.swift */; };
-		DBEF88BD21B0014B00A7BF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88BC21B0014B00A7BF81 /* ViewController.swift */; };
+		DBEF88BD21B0014B00A7BF81 /* AcceuilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88BC21B0014B00A7BF81 /* AcceuilViewController.swift */; };
 		DBEF88C021B0014B00A7BF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEF88BE21B0014B00A7BF81 /* Main.storyboard */; };
 		DBEF88C221B0014E00A7BF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEF88C121B0014E00A7BF81 /* Assets.xcassets */; };
 		DBEF88C521B0014E00A7BF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEF88C321B0014E00A7BF81 /* LaunchScreen.storyboard */; };
 		DBEF88D021B0014E00A7BF81 /* AmbulanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88CF21B0014E00A7BF81 /* AmbulanceTests.swift */; };
 		DBEF88DB21B0014E00A7BF81 /* AmbulanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88DA21B0014E00A7BF81 /* AmbulanceUITests.swift */; };
+		DBEF88E921B0188F00A7BF81 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF88E821B0188F00A7BF81 /* ConnectionViewController.swift */; };
+		DBEF892721B0731000A7BF81 /* raleway in Resources */ = {isa = PBXBuildFile; fileRef = DBEF892621B0730F00A7BF81 /* raleway */; };
+		DBEF892921B0731700A7BF81 /* roboto in Resources */ = {isa = PBXBuildFile; fileRef = DBEF892821B0731700A7BF81 /* roboto */; };
+		DBFEF67521BAC4A7000182F0 /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEF67421BAC4A7000182F0 /* RegionTableViewCell.swift */; };
+		DBFEF67721BAC4B8000182F0 /* DepartementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFEF67621BAC4B8000182F0 /* DepartementTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +60,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29A19E1F2A98245DD0E548F1 /* Pods-AmbulanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceTests/Pods-AmbulanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		36EB424CFC5952CDF21019E0 /* Pods_Ambulance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambulance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F44E6212E4C84B4AE86BD7D /* Pods_AmbulanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbulanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A1065EE48DFA56E8FE4C1 /* Pods-Ambulance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambulance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3038FA5227AB077F27B41E /* Pods-AmbulanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceTests/Pods-AmbulanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B769324444C33AC21567553B /* Pods_AmbulanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbulanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3AD33EAB9AA0B3560DCF1F /* Pods-AmbulanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceUITests/Pods-AmbulanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB026F7C21B6B8DB00E51B63 /* ModifierAmbulancierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierAmbulancierViewController.swift; sourceTree = "<group>"; };
+		DB026F7E21B7E10C00E51B63 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DB026F8021B7F82D00E51B63 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DB026F8321B7FDFB00E51B63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB2EF99F21BEF11B000E0013 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB2F953821B2BFFA00BF220B /* EspaseChauffeurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaseChauffeurViewController.swift; sourceTree = "<group>"; };
+		DB6AB6A121CD269600FBF541 /* ListChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatViewController.swift; sourceTree = "<group>"; };
+		DB6AB6A321CD286500FBF541 /* ListChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatTableViewCell.swift; sourceTree = "<group>"; };
+		DB967AE721B378ED00B16921 /* ListePatientChaufeurTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListePatientChaufeurTableViewCell.swift; sourceTree = "<group>"; };
+		DBA52A1C21B0A87E0036CDFF /* InscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionViewController.swift; sourceTree = "<group>"; };
+		DBA52A1E21B0A9120036CDFF /* EspaceProPartnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaceProPartnerViewController.swift; sourceTree = "<group>"; };
+		DBA52A2021B0AB7B0036CDFF /* AjoutAmbulancierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutAmbulancierViewController.swift; sourceTree = "<group>"; };
+		DBA52A2221B0DD880036CDFF /* ListeChauffeurPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeChauffeurPTableViewCell.swift; sourceTree = "<group>"; };
+		DBA52A2421B156510036CDFF /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		DBAE26B321BD8B6E00220FC9 /* AcceuilClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilClientViewController.swift; sourceTree = "<group>"; };
+		DBAE26B521BD8C5200220FC9 /* CommandeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandeViewController.swift; sourceTree = "<group>"; };
+		DBAE26B721BD8C7B00220FC9 /* EspaceClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaceClientViewController.swift; sourceTree = "<group>"; };
+		DBDC382821BFC97D00ABB65F /* ListeChauffeurPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeChauffeurPatientViewController.swift; sourceTree = "<group>"; };
+		DBDC382A21BFF45C00ABB65F /* ListeChauffeurPatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeChauffeurPatTableViewCell.swift; sourceTree = "<group>"; };
 		DBEF88B721B0014B00A7BF81 /* Ambulance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambulance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEF88BA21B0014B00A7BF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBEF88BC21B0014B00A7BF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBEF88BC21B0014B00A7BF81 /* AcceuilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilViewController.swift; sourceTree = "<group>"; };
 		DBEF88BF21B0014B00A7BF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBEF88C121B0014E00A7BF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEF88C421B0014E00A7BF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +99,13 @@
 		DBEF88D621B0014E00A7BF81 /* AmbulanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbulanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEF88DA21B0014E00A7BF81 /* AmbulanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceUITests.swift; sourceTree = "<group>"; };
 		DBEF88DC21B0014E00A7BF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEF88E821B0188F00A7BF81 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		DBEF892621B0730F00A7BF81 /* raleway */ = {isa = PBXFileReference; lastKnownFileType = folder; path = raleway; sourceTree = "<group>"; };
+		DBEF892821B0731700A7BF81 /* roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roboto; sourceTree = "<group>"; };
+		DBFEF67421BAC4A7000182F0 /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
+		DBFEF67621BAC4B8000182F0 /* DepartementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartementTableViewCell.swift; sourceTree = "<group>"; };
+		DC376B32AAC56BE6A5646A04 /* Pods-Ambulance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambulance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance.release.xcconfig"; sourceTree = "<group>"; };
+		FB4CEDBF5B259C2C247E0FBF /* Pods-AmbulanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbulanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmbulanceUITests/Pods-AmbulanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC4618D09C231D822BB2D4C /* Pods_Ambulance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A52147257B21F78705787E /* Pods_AmbulanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +129,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924683F3181F2525B2095DAE /* Pods_AmbulanceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A79135E81D908AC2F8FB332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A11A1065EE48DFA56E8FE4C1 /* Pods-Ambulance.debug.xcconfig */,
+				DC376B32AAC56BE6A5646A04 /* Pods-Ambulance.release.xcconfig */,
+				AA3038FA5227AB077F27B41E /* Pods-AmbulanceTests.debug.xcconfig */,
+				29A19E1F2A98245DD0E548F1 /* Pods-AmbulanceTests.release.xcconfig */,
+				FB4CEDBF5B259C2C247E0FBF /* Pods-AmbulanceUITests.debug.xcconfig */,
+				BC3AD33EAB9AA0B3560DCF1F /* Pods-AmbulanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3C4054BA2F0F54ADE629822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36EB424CFC5952CDF21019E0 /* Pods_Ambulance.framework */,
+				7F44E6212E4C84B4AE86BD7D /* Pods_AmbulanceTests.framework */,
+				B769324444C33AC21567553B /* Pods_AmbulanceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2EF9A121BF1A03000E0013 /* cell_reg_dep */ = {
+			isa = PBXGroup;
+			children = (
+				DBFEF67621BAC4B8000182F0 /* DepartementTableViewCell.swift */,
+				DBFEF67421BAC4A7000182F0 /* RegionTableViewCell.swift */,
+			);
+			path = cell_reg_dep;
+			sourceTree = "<group>";
+		};
+		DB2EF9A221BF1A4A000E0013 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				DB026F7E21B7E10C00E51B63 /* ChatViewController.swift */,
+				DB6AB6A121CD269600FBF541 /* ListChatViewController.swift */,
+				DB6AB6A321CD286500FBF541 /* ListChatTableViewCell.swift */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		DB2EF9A321BF1A65000E0013 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				DBAE26B321BD8B6E00220FC9 /* AcceuilClientViewController.swift */,
+				DBAE26B521BD8C5200220FC9 /* CommandeViewController.swift */,
+				DBAE26B721BD8C7B00220FC9 /* EspaceClientViewController.swift */,
+				DBDC382821BFC97D00ABB65F /* ListeChauffeurPatientViewController.swift */,
+				DBDC382A21BFF45C00ABB65F /* ListeChauffeurPatTableViewCell.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		DB2EF9A421BF1A94000E0013 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		DB2EF9A521BF1AB1000E0013 /* inscrip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = inscrip;
+			sourceTree = "<group>";
+		};
 		DBEF88AE21B0014B00A7BF81 = {
 			isa = PBXGroup;
 			children = (
+				DB026F8021B7F82D00E51B63 /* Bridging-Header.h */,
+				DB2EF99F21BEF11B000E0013 /* GoogleService-Info.plist */,
+				DB026F8321B7FDFB00E51B63 /* Constants.swift */,
+				DBEF892821B0731700A7BF81 /* roboto */,
+				DBEF892621B0730F00A7BF81 /* raleway */,
 				DBEF88B921B0014B00A7BF81 /* Ambulance */,
 				DBEF88CE21B0014E00A7BF81 /* AmbulanceTests */,
 				DBEF88D921B0014E00A7BF81 /* AmbulanceUITests */,
 				DBEF88B821B0014B00A7BF81 /* Products */,
+				2A79135E81D908AC2F8FB332 /* Pods */,
+				C3C4054BA2F0F54ADE629822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +235,25 @@
 			isa = PBXGroup;
 			children = (
 				DBEF88BA21B0014B00A7BF81 /* AppDelegate.swift */,
-				DBEF88BC21B0014B00A7BF81 /* ViewController.swift */,
+				DBEF88BC21B0014B00A7BF81 /* AcceuilViewController.swift */,
+				DB2EF9A421BF1A94000E0013 /* login */,
+				DBEF88E821B0188F00A7BF81 /* ConnectionViewController.swift */,
+				DBA52A1C21B0A87E0036CDFF /* InscriptionViewController.swift */,
+				DB2EF9A521BF1AB1000E0013 /* inscrip */,
+				DBA52A1E21B0A9120036CDFF /* EspaceProPartnerViewController.swift */,
+				DBA52A2221B0DD880036CDFF /* ListeChauffeurPTableViewCell.swift */,
+				DBA52A2021B0AB7B0036CDFF /* AjoutAmbulancierViewController.swift */,
+				DB026F7C21B6B8DB00E51B63 /* ModifierAmbulancierViewController.swift */,
+				DBA52A2421B156510036CDFF /* MapsViewController.swift */,
 				DBEF88BE21B0014B00A7BF81 /* Main.storyboard */,
 				DBEF88C121B0014E00A7BF81 /* Assets.xcassets */,
 				DBEF88C321B0014E00A7BF81 /* LaunchScreen.storyboard */,
 				DBEF88C621B0014E00A7BF81 /* Info.plist */,
+				DB2F953821B2BFFA00BF220B /* EspaseChauffeurViewController.swift */,
+				DB967AE721B378ED00B16921 /* ListePatientChaufeurTableViewCell.swift */,
+				DB2EF9A121BF1A03000E0013 /* cell_reg_dep */,
+				DB2EF9A321BF1A65000E0013 /* client */,
+				DB2EF9A221BF1A4A000E0013 /* chat */,
 			);
 			path = Ambulance;
 			sourceTree = "<group>";
@@ -132,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBEF88DF21B0014E00A7BF81 /* Build configuration list for PBXNativeTarget "Ambulance" */;
 			buildPhases = (
+				F1DD8020FCFC94DBB05C8E52 /* [CP] Check Pods Manifest.lock */,
 				DBEF88B321B0014B00A7BF81 /* Sources */,
 				DBEF88B421B0014B00A7BF81 /* Frameworks */,
 				DBEF88B521B0014B00A7BF81 /* Resources */,
+				25F1B748BA1C47289F54DCC8 /* [CP] Copy Pods Resources */,
+				D7F865CA44E89666154EE8F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBEF88E221B0014E00A7BF81 /* Build configuration list for PBXNativeTarget "AmbulanceTests" */;
 			buildPhases = (
+				562C5798FB3ACD314D274C2B /* [CP] Check Pods Manifest.lock */,
 				DBEF88C721B0014E00A7BF81 /* Sources */,
 				DBEF88C821B0014E00A7BF81 /* Frameworks */,
 				DBEF88C921B0014E00A7BF81 /* Resources */,
@@ -167,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBEF88E521B0014E00A7BF81 /* Build configuration list for PBXNativeTarget "AmbulanceUITests" */;
 			buildPhases = (
+				400A5572A1ADA4FAF507551C /* [CP] Check Pods Manifest.lock */,
 				DBEF88D221B0014E00A7BF81 /* Sources */,
 				DBEF88D321B0014E00A7BF81 /* Frameworks */,
 				DBEF88D421B0014E00A7BF81 /* Resources */,
@@ -229,9 +385,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEF892921B0731700A7BF81 /* roboto in Resources */,
+				DBEF892721B0731000A7BF81 /* raleway in Resources */,
 				DBEF88C521B0014E00A7BF81 /* LaunchScreen.storyboard in Resources */,
 				DBEF88C221B0014E00A7BF81 /* Assets.xcassets in Resources */,
 				DBEF88C021B0014B00A7BF81 /* Main.storyboard in Resources */,
+				DB2EF9A021BEF11B000E0013 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +410,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F1B748BA1C47289F54DCC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400A5572A1ADA4FAF507551C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmbulanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562C5798FB3ACD314D274C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmbulanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F865CA44E89666154EE8F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerSwift/CountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ambulance/Pods-Ambulance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DD8020FCFC94DBB05C8E52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambulance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBEF88B321B0014B00A7BF81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEF88BD21B0014B00A7BF81 /* ViewController.swift in Sources */,
+				DBAE26B421BD8B6F00220FC9 /* AcceuilClientViewController.swift in Sources */,
+				DBA52A2121B0AB7B0036CDFF /* AjoutAmbulancierViewController.swift in Sources */,
+				DBAE26B821BD8C7B00220FC9 /* EspaceClientViewController.swift in Sources */,
+				DB6AB6A421CD286500FBF541 /* ListChatTableViewCell.swift in Sources */,
+				DB2F953921B2BFFA00BF220B /* EspaseChauffeurViewController.swift in Sources */,
+				DBEF88BD21B0014B00A7BF81 /* AcceuilViewController.swift in Sources */,
+				DBDC382921BFC97D00ABB65F /* ListeChauffeurPatientViewController.swift in Sources */,
+				DB6AB6A221CD269600FBF541 /* ListChatViewController.swift in Sources */,
+				DBA52A1F21B0A9120036CDFF /* EspaceProPartnerViewController.swift in Sources */,
+				DBA52A2521B156510036CDFF /* MapsViewController.swift in Sources */,
 				DBEF88BB21B0014B00A7BF81 /* AppDelegate.swift in Sources */,
+				DB026F7D21B6B8DB00E51B63 /* ModifierAmbulancierViewController.swift in Sources */,
+				DBAE26B621BD8C5200220FC9 /* CommandeViewController.swift in Sources */,
+				DBFEF67521BAC4A7000182F0 /* RegionTableViewCell.swift in Sources */,
+				DB026F8421B7FDFB00E51B63 /* Constants.swift in Sources */,
+				DBEF88E921B0188F00A7BF81 /* ConnectionViewController.swift in Sources */,
+				DBA52A2321B0DD880036CDFF /* ListeChauffeurPTableViewCell.swift in Sources */,
+				DB967AE821B378ED00B16921 /* ListePatientChaufeurTableViewCell.swift in Sources */,
+				DBFEF67721BAC4B8000182F0 /* DepartementTableViewCell.swift in Sources */,
+				DBDC382B21BFF45C00ABB65F /* ListeChauffeurPatTableViewCell.swift in Sources */,
+				DB026F7F21B7E10C00E51B63 /* ChatViewController.swift in Sources */,
+				DBA52A1D21B0A87E0036CDFF /* InscriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +730,22 @@
 		};
 		DBEF88E021B0014E00A7BF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11A1065EE48DFA56E8FE4C1 /* Pods-Ambulance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MU32MSA4R;
 				INFOPLIST_FILE = Ambulance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dewinter.Ambulance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dewinterr.Ambulance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +753,22 @@
 		};
 		DBEF88E121B0014E00A7BF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC376B32AAC56BE6A5646A04 /* Pods-Ambulance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MU32MSA4R;
 				INFOPLIST_FILE = Ambulance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dewinter.Ambulance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dewinterr.Ambulance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +776,7 @@
 		};
 		DBEF88E321B0014E00A7BF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3038FA5227AB077F27B41E /* Pods-AmbulanceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +797,7 @@
 		};
 		DBEF88E421B0014E00A7BF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A19E1F2A98245DD0E548F1 /* Pods-AmbulanceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +818,7 @@
 		};
 		DBEF88E621B0014E00A7BF81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4CEDBF5B259C2C247E0FBF /* Pods-AmbulanceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +838,7 @@
 		};
 		DBEF88E721B0014E00A7BF81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3AD33EAB9AA0B3560DCF1F /* Pods-AmbulanceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

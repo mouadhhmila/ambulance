@@ -7,6 +7,16 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
+import KeychainSwift
+import Firebase
+
+
+var googleAPIKey1 = "AIzaSyCFudi7Ajot7iwgn6YvK3QwJAno2LJD3Y4"
+var Token = String()
+var keychain = KeychainSwift()
+var web_url = "http://ambulance.test-dewinter.com/api"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +26,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+         GMSServices.provideAPIKey(googleAPIKey1)
+        
+        let lauchedbefore = UserDefaults.standard.bool(forKey: "lauchedBefore")
+        
+        if lauchedbefore {
+            
+            print("cbon")
+            
+        }else {
+            
+            UserDefaults.standard.set(true, forKey: "lauchedBefore")
+            keychain.clear()
+            
+        }
+        
+        FirebaseApp.configure()
+       //keychain.delete("MyTokenDriver")
+        
         return true
     }
 
